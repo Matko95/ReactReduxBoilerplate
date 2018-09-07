@@ -1,2 +1,1 @@
-# ReactReduxBoilerplate
-Lightweight React / Redux boilerplate
+# Smart Alert

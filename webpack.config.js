@@ -15,6 +15,7 @@ const config = {
     contentBase: path.join(__dirname, './dist/'),
     hot: true,
     headers: { 'Access-Control-Allow-Origin': '*' },
+    historyApiFallback: true,
   },
   output: {
     path: path.join(__dirname, './dist'),
@@ -36,14 +37,7 @@ const config = {
               {
                 presets: ['es2015', 'react'],
               },
-          },
-          {
-            loader: 'eslint-loader',
-            options: {
-              failOnWarning: false,
-              failOnError: false,
-            },
-          },
+          }
         ],
 
       },
